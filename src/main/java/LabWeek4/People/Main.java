@@ -13,7 +13,7 @@ public class Main {
 
         for (Person p : people) {
 
-            System.out.println(p.toString());
+            System.out.println(p);
             
         }
 
@@ -45,7 +45,7 @@ public class Main {
         System.out.println( pek );
         System.out.println( esk );
 
-        List<Person> people = new ArrayList<Person>();
+        List<Person> people = new ArrayList<>();
         people.add( new Teacher("Pekka Mikkola", "Korsontie Street 1 03100 Vantaa", 1200) );
         people.add( new Student("Olli", "Ida Albergintie Street 1 00400 Helsinki") );
 
