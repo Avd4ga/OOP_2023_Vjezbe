@@ -3,9 +3,10 @@ package LabWeek6.HashMaps.Promissory;
 import java.util.HashMap;
 
 public class PromissoryNote {
-    private HashMap<String,Double> note=new HashMap<>();
+    private HashMap<String,Double> note;
 
     public PromissoryNote(){
+        note=new HashMap<>();
 
     }
     public void setLoan(String toWhom,double value){

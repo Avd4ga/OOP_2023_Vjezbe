@@ -5,7 +5,7 @@ public class Zad5 {
 
         int[] array={-3,2,3,4,7,13};
 
-        int a=5;
+        int a=-1;
 
         boolean result=BinarySearch.search(array,a);
         System.out.println(result);

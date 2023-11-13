@@ -32,7 +32,7 @@ public class NightSky {
        Random rand=new Random();
 
        for(int i=0;i<=this.width;i++){
-           int randt = rand.nextInt(10);
+           double randt = rand.nextDouble(1);
 
            if(randt<this.density){
                str+="+";
@@ -45,15 +45,15 @@ public class NightSky {
 
         return str;
     }
-    public String print(){
-        String str="";
+    public void print(){
+
         this.starsInLastPrint=0;
         for (int i=1;i<=this.height;i++){
             System.out.println(printLine());
 
 
         }
-        return str;
+
     }
     public int starsInLastPrint(){
 

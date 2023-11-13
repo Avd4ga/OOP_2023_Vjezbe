@@ -18,6 +18,10 @@ public class Main {
 
         System.out.println(box);
 
+        System.out.println();
+
+        Box.print();
+
 
     }
 }

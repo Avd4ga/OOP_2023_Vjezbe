@@ -7,8 +7,8 @@ public class Main {
 
         System.out.println("---------MAX WEIGHT---------");
         coffeeBox.add(new Thing("Saludo",1));
-        coffeeBox.add(new Thing("Pirka",1));
-        coffeeBox.add(new Thing("Kopi Luwak",1));
+        coffeeBox.add(new Thing("Pirka",8));
+        coffeeBox.add(new Thing("Kopi Luwak",12));
 
         System.out.println(coffeeBox.isInTheBox(new Thing("Saludo")));
         System.out.println(coffeeBox.isInTheBox(new Thing("Pirka")));

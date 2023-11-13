@@ -6,11 +6,12 @@ import java.util.List;
 public class Box {
 
     private double weight;
-    private List<ToBeStored> items=new ArrayList<>();
+    private static ArrayList<ToBeStored> items;
     private double currentWeight=0;
 
     public Box(double weight) {
         this.weight = weight;
+        this.items=new ArrayList<>();
     }
 
 
@@ -25,6 +26,15 @@ public class Box {
     @Override
     public String toString() {
         return "Box: " + items.size() + " things, total weight " + currentWeight + " kg";
+    }
+
+    public static void print(){
+        System.out.println("Items in box: ");
+
+        for(ToBeStored s:items){
+            System.out.println(s);
+        }
+
     }
 
 }

@@ -23,7 +23,7 @@ public class LibraryMain {
         Library.addBook(new Book("NHL Hockey", "Stanley Kupp", 1952));
         Library.addBook(new Book("Battle Axes", "Tom A. Hawk", 1851));
 
-        for (Book book: Library.searchByTitle("CHEESE")) {
+        for (Book book: Library.searchByTitle("never")) {
             System.out.println(book);
         }
 
