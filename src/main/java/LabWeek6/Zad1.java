@@ -1,6 +1,8 @@
 package LabWeek6;
 
 
+import java.util.Arrays;
+
 public class Zad1 {
 
     public static int smallest(int[] array) {
@@ -20,6 +22,7 @@ public class Zad1 {
     public static void main(String[] args) {
 
         int[] arr = { 3, 4, 23, 2, 6, 300};
+        Arrays.sort(arr);
         System.out.println(smallest(arr));
 
 
